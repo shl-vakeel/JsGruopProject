@@ -15,6 +15,8 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
     <title>Travel Next - Home</title>
   </head>
   <body>
@@ -25,16 +27,22 @@
           <ul class="nav-items">
             <li class="nav-item"><a href="./index.html">Home</a></li>
             <li class="nav-item"><a href="./gallery.html">Gallery</a></li>
-
+            <li class="nav-item"><a href="./about.html">About</a></li>
             <li class="nav-item"><a href="./contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
       <div class="header-content">
-        <h1 class="site-info main-heading">Travel Next</h1>
-        <p class="site-desc">
-          
-        </p>
+        <h1 class="site-info main-heading">
+          <span
+          class="typer"
+          id="main"
+          data-words="Travel Next"
+          data-delay="100"
+          data-deleteDelay="1000"
+          data-colors="white"></span>
+        <span class="cursor" data-cursorDisplay="_" data-owner="main"></span>
+        </h1>
         <a href="./gallery.html" class="button-primary">Explore Places</a>
       </div>
     </header>
